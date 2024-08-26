@@ -12,7 +12,7 @@ let package = Package(
         .executable(name: "hub-cli", targets: ["HubCLI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.4.0")
+        .package(url: "git@github.com:apple/swift-argument-parser.git", from: "1.4.0")
     ],
     targets: [
         .executableTarget(
